@@ -1,11 +1,11 @@
 [build]
   command = "cd client && npm run build"
-  publish = "ui/whiteboard-collab/build"
+  publish = "client/build"
 
 [build.environment]
   NODE_ENV = "production"
 
 [dev]
   command = "cd server && npm run dev"
-  publish = "ui/whiteboard-collab/build"
+  publish = "client/build"
   functions = "server/functions"
