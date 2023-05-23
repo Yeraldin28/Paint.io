@@ -1,11 +1,8 @@
-const withPlugins = require('next-compose-plugins');
-const withCSS = require('@zeit/next-css');
-const withTM = require('next-transpile-modules')(['tailwindcss']);
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
     appDir: true,
   },
-};
+}
 
-module.exports = withPlugins([withCSS, withTM], nextConfig);
+module.exports = nextConfig
