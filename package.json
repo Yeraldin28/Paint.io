@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "cd client && npm run build",
+    "start": "cd client && npm run start",
     "lint": "next lint"
   },
   "dependencies": {
