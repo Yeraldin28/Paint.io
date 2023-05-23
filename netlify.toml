@@ -1,5 +1,5 @@
 [build]
-  command = "cd client && next build"
+  command = "cd client && npm run build"
   publish = "ui/whiteboard-collab/build"
 
 [build.environment]
