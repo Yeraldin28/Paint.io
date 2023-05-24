@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 .btn-shadow {
     -webkit-box-shadow: -5px 6px 1px 0px rgba(0, 0, 0, 0.62);
