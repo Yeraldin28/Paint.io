@@ -1,5 +1,5 @@
 "use client"
-
+import React from 'react';
 import { useEffect, useRef, useState } from "react"
 import useDraw from "../../../hooks/useDraw"
 import { CirclePicker } from "react-color"
@@ -141,7 +141,7 @@ const Room = ({ params }: ParamsProps) => {
                             </h1>
                             <CirclePicker
                                 color={color}
-                                onChange={(e) => setColor(e.hex)}
+                                onChange={(e:any) => setColor(e.hex)}
                             />
                         </div>
                         {/*         Size Picker     */}
