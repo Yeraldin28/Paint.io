@@ -1,6 +1,6 @@
 [build]
   command = "cd client && npm install && npm run build"
-  publish = "client/build"
+  publish = "client/.next"
 
 [build.environment]
   NODE_ENV = "production"
