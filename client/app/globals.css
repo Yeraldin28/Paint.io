@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .btn-shadow {
     -webkit-box-shadow: -5px 6px 1px 0px rgba(0, 0, 0, 0.62);
     -moz-box-shadow: -5px 6px 1px 0px rgba(0, 0, 0, 1);
@@ -12,7 +16,3 @@
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, 0.22);
 }
-
-
-
-
