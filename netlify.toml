@@ -6,6 +6,6 @@
   NODE_ENV = "production"
 
 [dev]
-  command = "cd server && npm run dev"
+  command = "cd server && npm install && npm run start"
   publish = "client/build"
   functions = "server/functions"
